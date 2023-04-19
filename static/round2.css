@@ -1,0 +1,77 @@
+body {
+  background-image: url("../static/poster_80.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 90%;
+  /* border-radius: 1em; */
+  padding: 0;
+  margin: 25px;
+  /* padding: 12px; */
+}
+.Title {
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+  color: gold;
+  font-size: 3em;
+  /* text-decoration: none; */
+}
+
+#qdisplay {
+  text-align: center;
+  color: biscuit;
+  text-shadow: 7px 7px 7px black;
+  font-size: 30px;
+  color: lightgreen;
+  /* text-underline-position: above; */
+  /* font */
+}
+
+#ques {
+  position: absolute;
+  top: 12em;
+  left: 16em;
+  width: 70%;
+  height: 60px;
+  text-align: center;
+  border: 0.2em solid black;
+  font-size: 1.2em;
+}
+.box {
+  display: inline-grid;
+  width: 510px;
+  height: 50px;
+  border: 0.1em solid yellow;
+  padding: 0;
+  background-color: lightblue;
+  margin: 90px 60px 0px 300px;
+  /* font-size: 2p; */
+}
+
+.box1 {
+  display: inline-grid;
+  width: 510px;
+  height: 50px;
+  border: 0.1em solid yellow;
+  padding: 0px;
+  background-color: lightblue;
+  /* margin: 50px 100px 50px 1200px; */
+  margin: 90px 60px 0px 300px;
+  /* color: white; */
+}
+.button {
+  background-color: rgb(41, 41, 223);
+}
+
+#text1,
+#text2,
+#text3,
+#text4,
+#text5,
+#text6,
+#text7,
+#text8 {
+  display: none;
+  font-size: 2em;
+  color: antiquewhite;
+}

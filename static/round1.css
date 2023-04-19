@@ -1,0 +1,126 @@
+body{
+    background-image: url("../static/poster_80.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid-container{
+    display: inline-grid;
+    margin: 30px 0 0 220px;
+    border: 3px solid green;
+    padding: 10px;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    border-radius: 25px;
+}
+.grid-item{
+    
+    width: 15rem;
+    height: 2em;
+    /* border-radius: 25px; */
+    border-width: 0.22em;
+    border-color: black;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 20px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    padding-top:1.5em;
+    padding-bottom: 1.5em;
+    z-index:4;
+    background-color: aqua;
+}
+
+.heading {
+    font-size: 1.5em;
+    background-color: rgb(27, 159, 235);
+    font-weight: bold;
+}
+
+#row {
+    background-color: rgb(27, 159, 235);
+}
+
+#column {
+    background-color: rgb(27, 159, 235);
+}
+
+.quesbtn{
+    font-size: 1.7em;
+    height: auto;
+    width: auto;
+    font-family: garamond;
+    border: none;
+    background-color: aqua;
+    font-weight: bold;
+}
+
+.team-dash{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin: 30px auto 10px auto;
+    margin-left: 450px;
+}
+
+.team{
+    /* height: 5em; */
+    /* width: 15em; */
+    margin-right: 70px;
+    /* border-width: 0.4em; */
+    border-color: black;
+    /* border-width: 2px; */
+    /* border-style: solid; */
+    justify-content:center;
+    text-align: center;
+    /* border-radius: 25px; */
+    color: bisque;
+    font-size: 2em;
+    background-color: transparent;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.score {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.Title{
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    color: gold;
+    font-size: 3em;
+}
+.popup{
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    display:none;
+    background-color: rgb(54, 75, 233);
+    border-style: solid;
+    border-color: black;
+    font-size: 50px;
+    z-index: 6;
+    height: 600px;
+    width: 1000px;
+    border-radius: 10px 10px 10px 10px;
+    color: aliceblue;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+.titlepop{
+    display:flex;
+    justify-content:center;
+    border-radius: 25px;
+}
+.teambutton{
+    height:2em;
+    width:4em;
+    background-color: aqua;
+    border-radius: 10px;
+    color: black ;
+}
